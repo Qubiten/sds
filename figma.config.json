@@ -7,7 +7,6 @@
       "**/*.figma.tsx"
     ],
     "exclude": [
-      "src/figma/icons/**",
       "**/*.css",
       "**/*.svg",
       "**/*.png",
