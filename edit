@@ -1,0 +1,251 @@
+
+
+Select the pages with the Figma components you'd like to map (Press space to select and enter to continue) ›  
+◯   Icons        - 1722 Components (Zoom out, Zoom in, Zap, Zap off, ...)
+◯   Examples     - 11 Components (Examples/AI Chat, Examples/Portfolio, Examples/Product Detail Page, Examples/Shop, ...)
+◉   Accordion    - 2 Components (Accordion, Accordion Item)
+◯   AI Chat      - 6 Components (AI Chat -> User message, AI Chat Box, AI -> Conversation, AI Chat -> Code Block, ...)
+◉   Avatars      - 3 Components (Avatar Group, Avatar Block, Avatar)
+◉   Buttons      - 4 Components (Button Danger, Button Group, Icon Button, Button)
+◯   Calendar     - 5 Components (Calendar Year Field, Calendar Month Field, Calendar Select Group, Calendar Button, ...)
+◉   Cards        - 6 Components (Pricing Card, Review Card, Stats Card, Testimonial Card, ...)
+◉   Dialog       - 2 Components (Dialog, Dialog Body)
+◉   Inputs       - 12 Components (Checkbox Group, Radio Group, Textarea Field, Switch Field, ...)
+◉   Menu         - 6 Components (Menu Item, Menu Shortcut, Menu Separator, Menu Heading, ...)
+◉   Navigation   - 4 Components (Navigation Pill, Navigation Pill List, Navigation Button List, Navigation Button)
+◉   Notification - 1 Component (Notification)
+◉   Pagination   - 6 Components (Pagination List, Pagination Page, Pagination Previous, Pagination Next, ...)
+◉   Tabs         - 2 Components (Tabs, Tab)
+◉   Tags         - 3 Components (Tag Toggle, Tag Toggle Group, Tag)
+◉   Text         - 18 Components (Text Link List Item, Text List Item, Text Title Hero, Text Title Page, ...)
+◉   Tooltip      - 1 Component (Tooltip)
+◉   Forms        - 6 Components (Form Forgot Password, Form Shipping, Form Contact, Form Newsletter, ...)
+◯   Sections     - 23 Components (Header Auth, Header, AI Chatbot, Footer, ...)
+◯   Utilities    - 3 Components (.Slot, _Component Note, _Component Annotation)
+
+
+
+
+
+
+
+
+
+wmmbabu@Mac sds % npm i            
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+added 654 packages, and audited 655 packages in 1m
+
+150 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (4 moderate, 9 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % npm run app:dev
+
+> sds@0.0.0 app:dev
+> vite
+
+
+  VITE v6.4.1  ready in 711 ms
+
+  ➜  Local:   http://localhost:8000/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+^C
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % npm run storybook
+
+> sds@0.0.0 storybook
+> storybook dev -p 6006 --no-open
+
+@storybook/core v8.6.14
+
+info => Starting manager..
+WARN No story files found for the specified pattern: src/stories/**/*.mdx
+info => Starting preview..
+info Using tsconfig paths for react-docgen
+╭────────────────────────────────────────────────────╮
+│                                                    │
+│   Storybook 8.6.14 for react-vite started          │
+│   244 ms for manager and 1.83 s for preview        │
+│                                                    │
+│    Local:            http://localhost:6006/        │
+│    On your network:  http://192.168.1.248:6006/    │
+│                                                    │
+╰────────────────────────────────────────────────────╯
+
+attention => Storybook now collects completely anonymous telemetry regarding usage.
+This information is used to shape Storybook's roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://storybook.js.org/telemetry
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+2:06:22 AM [vite] (client) ✨ new dependencies optimized: @storybook/theming/create
+2:06:22 AM [vite] (client) ✨ optimized dependencies changed. reloading
+^C
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % npx figma connect --token "$FIGMA_ACCESS_TOKEN"          
+
+   ┌─────────────────────────────────────────────────────────────────────────────────────┐
+   │                                                                                     │
+   │                               Welcome to Code Connect                               │
+   │                                                                                     │
+   │   Follow a few simple steps to connect your Figma design system to your codebase.   │
+   │   When you're done, you'll be able to see your component code while inspecting in   │
+   │                                  Figma's Dev Mode.                                  │
+   │                                                                                     │
+   │            Learn more at https://www.figma.com/developers/code-connect.             │
+   │                                                                                     │
+   │   Please raise bugs or feedback at https://github.com/figma/code-connect/issues.    │
+   │                                                                                     │
+   │   Note: This process will create and modify Code Connect files. Make sure you've    │
+   │                 committed necessary changes in your codebase first.                 │
+   │                                                                                     │
+   └─────────────────────────────────────────────────────────────────────────────────────┘
+
+Config file found, parsing /Users/wmmbabu/projects/sds using specified include globs
+
+✔ What is the URL of the Figma file containing design components you'd like to connect? … https://figma.com/design/mVqpnxTTUZW8xwC7vzGYtm
+
+✔ Code Connect offers AI support to map properties between the Figma file and components in your codebase. Data is used only for mapping and is not stored or used for AI training. To learn more, visit https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect › Use AI for prop mapping
+
+1846 Figma components found in the Figma file across 21 pages.
+
+✔ Select the pages with the Figma components you'd like to map (Press space to select and enter to continue) › Accordion    - 2 Components (Accordion, Accordion Item), Avatars      - 3 Components (Avatar Group, Avatar Block, Avatar), Buttons      - 4 Components (Button Danger, Button Group, Icon Button, Button), Dialog       - 2 Components (Dialog, Dialog Body), Menu         - 6 Components (Menu Item, Menu Shortcut, Menu Separator, Menu Heading, ...), Navigation   - 4 Components (Navigation Pill, Navigation Pill List, Navigation Button List, Navigation Button), Notification - 1 Component (Notification), Pagination   - 6 Components (Pagination List, Pagination Page, Pagination Previous, Pagination Next, ...), Text         - 18 Components (Text Link List Item, Text List Item, Text Title Hero, Text Title Page, ...), Tooltip      - 1 Component (Tooltip)
+
+
+   ┌──────────────────────────────────────────────────────────────────────────────────────┐
+   │                                                                                      │
+   │                           Connecting your Figma components                           │
+   │                                                                                      │
+   │             0 components were automatically matched based on their names             │
+   │                          0 components have not been matched                          │
+   │                                                                                      │
+   │   Match up Figma components with their code definitions. When you're finished, you   │
+   │         can specify the directory you want to create Code Connect files in.          │
+   │                                                                                      │
+   └──────────────────────────────────────────────────────────────────────────────────────┘
+
+✖ Select a Figma component match you'd like to edit (Press esc when you're ready to continue on) › Figma component: Accordion               ↔️ Code Definition: src/ui/primitives/Accordion/Accordion.tsx
+
+A Code Connect file is created for each Figma component to code definition match.
+✔ In which directory would you like to store Code Connect files? (Press enter to co-locate your files alongside your component files) … src/figma
+
+✔ No Code Connect files linked. Are you sure you want to exit? › Exit
+
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % npx figma connect --token "$FIGMA_ACCESS_TOKEN"          
+
+   ┌─────────────────────────────────────────────────────────────────────────────────────┐
+   │                                                                                     │
+   │                               Welcome to Code Connect                               │
+   │                                                                                     │
+   │   Follow a few simple steps to connect your Figma design system to your codebase.   │
+   │   When you're done, you'll be able to see your component code while inspecting in   │
+   │                                  Figma's Dev Mode.                                  │
+   │                                                                                     │
+   │            Learn more at https://www.figma.com/developers/code-connect.             │
+   │                                                                                     │
+   │   Please raise bugs or feedback at https://github.com/figma/code-connect/issues.    │
+   │                                                                                     │
+   │   Note: This process will create and modify Code Connect files. Make sure you've    │
+   │                 committed necessary changes in your codebase first.                 │
+   │                                                                                     │
+   └─────────────────────────────────────────────────────────────────────────────────────┘
+
+Config file found, parsing /Users/wmmbabu/projects/sds using specified include globs
+
+✔ What is the URL of the Figma file containing design components you'd like to connect? … https://figma.com/design/mVqpnxTTUZW8xwC7vzGYtm
+
+✔ Code Connect offers AI support to map properties between the Figma file and components in your codebase. Data is used only for mapping and is not stored or used for AI training. To learn more, visit https://help.figma.com/hc/en-us/articles/23920389749655-Code-Connect › Use AI for prop mapping
+
+1846 Figma components found in the Figma file across 21 pages.
+
+✔ Select the pages with the Figma components you'd like to map (Press space to select and enter to continue) › Cards        - 6 Components (Pricing Card, Review Card, Stats Card, Testimonial Card, ...), Inputs       - 12 Components (Checkbox Group, Radio Group, Textarea Field, Switch Field, ...), Tabs         - 2 Components (Tabs, Tab), Tags         - 3 Components (Tag Toggle, Tag Toggle Group, Tag), Forms        - 6 Components (Form Forgot Password, Form Shipping, Form Contact, Form Newsletter, ...)
+
+
+   ┌──────────────────────────────────────────────────────────────────────────────────────┐
+   │                                                                                      │
+   │                           Connecting your Figma components                           │
+   │                                                                                      │
+   │             0 components were automatically matched based on their names             │
+   │                          2 components have not been matched                          │
+   │                                                                                      │
+   │   Match up Figma components with their code definitions. When you're finished, you   │
+   │         can specify the directory you want to create Code Connect files in.          │
+   │                                                                                      │
+   └──────────────────────────────────────────────────────────────────────────────────────┘
+
+✖ Select a Figma component match you'd like to edit (Press esc when you're ready to continue on) › Figma component: Date Input Field      ↔️ Code Definition: -
+
+A Code Connect file is created for each Figma component to code definition match.
+✔ In which directory would you like to store Code Connect files? (Press enter to co-locate your files alongside your component files) … src/figma
+
+✔ No Code Connect files linked. Are you sure you want to exit? › Exit
+
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .env-rename
+        modified:   figma.config.json
+        modified:   package-lock.json
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   figma.config.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        edit
+
+wmmbabu@Mac sds % 
+wmmbabu@Mac sds % git add -A
+wmmbabu@Mac sds % git config --global user.name "wilbye"     
+wmmbabu@Mac sds % git config --global user.email "wilbye@qubiten.com
+wmmbabu@Mac sds % git push -u origin
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 11 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.39 KiB | 1.39 MiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote: 
+remote: GitHub found 7 vulnerabilities on Qubiten/sds's default branch (6 high, 1 moderate). To find out more, visit:
+remote:      https://github.com/Qubiten/sds/security/dependabot
+remote: 
+To https://github.com/Qubiten/sds
+   be440d8..22b68b1  main -> main
+branch 'main' set up to track 'origin/main'.
