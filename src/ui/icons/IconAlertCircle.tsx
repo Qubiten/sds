@@ -1,4 +1,4 @@
 import { IconProps, Icon } from "primitives";
 export const IconAlertCircle = (props: IconProps) => (
-  <Icon {...props}><g clipPath="url(#clip0_68_15555)"><path d="M8.00004 5.33325V7.99992M8.00004 10.6666H8.00671M14.6667 7.99992C14.6667 11.6818 11.6819 14.6666 8.00004 14.6666C4.31814 14.6666 1.33337 11.6818 1.33337 7.99992C1.33337 4.31802 4.31814 1.33325 8.00004 1.33325C11.6819 1.33325 14.6667 4.31802 14.6667 7.99992Z" stroke="var(--svg-stroke-color)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></g><defs><clipPath id="clip0_68_15555"><rect width="16" height="16" fill="white"/></clipPath></defs></Icon>
+  <Icon {...props}><g clipPath="url(#clip0_68_15555)"><path d="M8.00016 5.33334V8M8.00016 10.6667H8.00683M14.6668 8C14.6668 11.6819 11.6821 14.6667 8.00016 14.6667C4.31826 14.6667 1.3335 11.6819 1.3335 8C1.3335 4.3181 4.31826 1.33334 8.00016 1.33334C11.6821 1.33334 14.6668 4.3181 14.6668 8Z" stroke="var(--svg-stroke-color)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></g><defs><clipPath id="clip0_68_15555"><rect width="16" height="16" fill="white"/></clipPath></defs></Icon>
 );

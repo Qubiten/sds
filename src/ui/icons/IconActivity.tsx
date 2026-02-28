@@ -1,4 +1,4 @@
 import { IconProps, Icon } from "primitives";
 export const IconActivity = (props: IconProps) => (
-  <Icon {...props}><path d="M14.6666 8H12L9.99998 14L5.99998 2L3.99998 8H1.33331" stroke="var(--svg-stroke-color)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></Icon>
+  <Icon {...props}><path d="M14.6668 8H12.0002L10.0002 14L6.00016 2L4.00016 8H1.3335" stroke="var(--svg-stroke-color)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></Icon>
 );

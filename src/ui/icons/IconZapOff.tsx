@@ -1,4 +1,4 @@
 import { IconProps, Icon } from "primitives";
 export const IconZapOff = (props: IconProps) => (
-  <Icon {...props}><g clipPath="url(#clip0_68_16117)"><path d="M8.27341 4.49984L8.66675 1.33317L7.04675 3.27984M12.3801 8.6065L14.0001 6.6665H10.4401M5.33341 5.33317L2.00008 9.33317H8.00008L7.33341 14.6665L10.6667 10.6665M0.666748 0.666504L15.3334 15.3332" stroke="var(--svg-stroke-color)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></g><defs><clipPath id="clip0_68_16117"><rect width="16" height="16" fill="white"/></clipPath></defs></Icon>
+  <Icon {...props}><g clipPath="url(#clip0_68_16117)"><path d="M8.27317 4.50008L8.6665 1.33341L7.0465 3.28008M12.3798 8.60675L13.9998 6.66675H10.4398M5.33317 5.33341L1.99984 9.33341H7.99984L7.33317 14.6667L10.6665 10.6667M0.666504 0.666748L15.3332 15.3334" stroke="var(--svg-stroke-color)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></g><defs><clipPath id="clip0_68_16117"><rect width="16" height="16" fill="white"/></clipPath></defs></Icon>
 );
